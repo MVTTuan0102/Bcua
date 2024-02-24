@@ -19,7 +19,7 @@ const ShowBet = $("#ShowBet");
 const more = $("#more");
 
 
-var Balance = 500000;
+var Balance = 50;
 
 const XiNgau = ["Nai.png","Bau.png","Ga.png","Ca.png","Cua.png","Tom.png"];
 const PriceChip = [1,5,10,20,50,100,500,1000];
@@ -188,7 +188,7 @@ function CloseDetail() {
 }
 
 function ResetMoney() {
-	Balance = 500000;
+	Balance = 50;
 	ChangeBalance();
 	Swal.fire(
 		'Phục Hồi Thành Công',
